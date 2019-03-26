@@ -1,0 +1,16 @@
+
+https://www.concretepage.com/spring-session/spring-session-redis-servlet-integration-example
+
+1)start Redis
+
+2)mvn clean install
+
+3)copy the war file into Tomcat webapps
+
+4)open 3 browsers and go to following URL and store some session attributes
+
+  http://localhost:8080/spring-session-0.0.1-SNAPSHOT/
+  
+5)each browser has its own values
+
+6)sesson data is stored in Redis instead of Tomcat
